@@ -1,7 +1,7 @@
 apiVersion: carto.run/v1alpha1
 kind: Deliverable
 metadata:
-  creationTimestamp: "2022-05-01T16:30:14Z"
+  creationTimestamp: "2022-08-17T06:49:00Z"
   generation: 1
   labels:
     app.kubernetes.io/component: deliverable
@@ -17,8 +17,8 @@ metadata:
     carto.run/workload-namespace: tap-install
   name: tanzu-java-web-app
   namespace: tap-install
-  resourceVersion: "125782"
-  uid: ccaf72ce-fa5b-4602-83e0-40bf20ff81cb
+  resourceVersion: "114413887"
+  uid: 8997e9e8-6135-45b4-a088-59f1b846007d
 spec:
   source:
-    image: tapdemoacr.azurecr.io/supply-chain/tanzu-java-web-app-tap-install-bundle:02d79be1-bb10-4c92-9e78-f8ff3682d143
+    image: tapdemoacr.azurecr.io/supply-chain/tanzu-java-web-app-tap-install-bundle:fa5afb10-0cf8-4267-9331-cdbf29f10ceb
